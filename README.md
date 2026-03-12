@@ -143,7 +143,6 @@ Get-MgUser -ConsistencyLevel eventual -Filter "endsWith(UserPrincipalName,'@your
 ```
 ---
 ## **Screenshots**
-
 ![Groups Created](screenshots/01-groups-created.png)
 ![App Registration Permissions](screenshots/02-app-registration-permissions.png)
 ![HR CSV Feed](screenshots/03-hr-csv.png)
