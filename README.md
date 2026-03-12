@@ -1,5 +1,3 @@
-
-
 🛠 Joiner–Mover–Leaver (JML) HR Automation Workflow
 Automate user lifecycle management in Microsoft Entra ID (Azure AD) using PowerShell and Microsoft Graph.  
 This project covers Join → Move → Leave operations with logging, backups, rollback, and full orchestration.
