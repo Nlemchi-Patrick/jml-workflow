@@ -151,7 +151,7 @@ Get-MgUser -ConsistencyLevel eventual -Filter "endsWith(UserPrincipalName,'@your
 ![Users Created](screenshots/05-users-created.png)
 ![Groups Updated](screenshots/06-groups-updated.png)
 ![Joiners Script](screenshots/07-joiners.png)
-![Movers Script](screenshots/08-move-(department change).png)
+![Movers Script](screenshots/08-move-department-change.png)
 ![Leavers Script](screenshots/09-user-account-disabled.png)
 ![Log File](screenshots/10-log-file.png)
 ![Rollback Success](screenshots/11-rollback-success.png)
