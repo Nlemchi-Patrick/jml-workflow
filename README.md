@@ -142,26 +142,26 @@ Verify users were created:
 Get-MgUser -ConsistencyLevel eventual -Filter "endsWith(UserPrincipalName,'@yourdomain.onmicrosoft.com')" | Select-Object DisplayName, UserPrincipalName, Department, AccountEnabled | Format-Table
 ```
 ---
-Screenshots
-Step	Screenshot
-Groups created	01-groups-created.png
-App Registration permissions	02-app-registration-permissions.png
-HR CSV feed	03-hr-csv.png
-Backup created	04-backup-created.png
-Users created	05-users-created.png
-Groups updated	06-groups-updated.png
-Joiners script successful  07-joiners.png
-Movers script successful  08-move-(department change).png
-Leavers script successful  09-user-account-disabled.png
-Log file	10-log-file.png
-Rollback success	11-rollback-success.png
-Orchestrator run	12-orchestrator-run.png
-Task Scheduler	13-task-scheduler.png
+## **Screenshots**
+
+![Groups Created](screenshots/01-groups-created.png)
+![App Registration Permissions](screenshots/02-app-registration-permissions.png)
+![HR CSV Feed](screenshots/03-hr-csv.png)
+![Backup Created](screenshots/04-backup-created.png)
+![Users Created](screenshots/05-users-created.png)
+![Groups Updated](screenshots/06-groups-updated.png)
+![Joiners Script](screenshots/07-joiners.png)
+![Movers Script](screenshots/08-move-(department change).png)
+![Leavers Script](screenshots/09-user-account-disabled.png)
+![Log File](screenshots/10-log-file.png)
+![Rollback Success](screenshots/11-rollback-success.png)
+![Orchestrator Run](screenshots/12-master-orchestrator-run.png)
+![Task Scheduler](screenshots/13-task-scheduler.png)
 > Place screenshots in `/screenshots` for full documentation.
 ---
-Authors
+Authors:
 Nlemchi Patrick  
-GitHub / LinkedIn / Email (optional)
+GitHub: https://github.com/Nlemchi-Patrick / LinkedIn: www.linkedin.com/in/patrick-n-tech / Email: (optional)
 > Maintainer: This repository demonstrates enterprise-level IAM automation using PowerShell and Microsoft Graph.
 ---
 Notes
