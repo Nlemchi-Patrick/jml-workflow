@@ -1,0 +1,40 @@
+# -----------------------------------------------
+# JML Workflow .gitignore
+# -----------------------------------------------
+
+# Credentials / Secrets (NEVER commit these)
+*secret*
+*credential*
+*password*
+*.key
+*.pfx
+*.pem
+
+# Logs
+logs/
+*.log
+*.txt
+
+# Backups
+logs/backups/
+backups/
+*.json
+
+# HR Feed (contains real employee data)
+data/
+*.csv
+
+# PowerShell temp files
+*.ps1xml
+*.psm1.bak
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Screenshots (optional - remove this if you want to push screenshots)
+# screenshots/
